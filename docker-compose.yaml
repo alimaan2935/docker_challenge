@@ -1,0 +1,10 @@
+version: '3'
+services:
+    detection_app:
+        build: ./detection_app
+        ports:
+            - "5000:5000"
+        depends_on:
+            - coco_model
+    coco_model:
+        image: alimaan/od_test:latest
