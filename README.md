@@ -9,7 +9,9 @@ docker-compose up
 Build the docker images and run the containers.
 
 ```shell
-http://localhost:5000
+http://localhost:80
+or
+http://localhost
 ```
 
 To access the app and upload the image, get the COCO object detection results.
